@@ -1,0 +1,175 @@
+:root{
+    --logo-color--:  conic-gradient(from 180deg at 50% 50%, #7000FF 0deg, #7D9AFF 0.04deg, #FF7AD2 183.75deg, #7000FF 360deg);
+}
+
+
+nav{
+margin-top: 0;
+width: 100%;
+height: 60px;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+align-items: center;
+justify-content: center;
+background: #FFFFFF;
+z-index: 999;
+position: fixed;
+
+}
+
+/* ================================================= logo====================== */
+.logo{
+cursor: pointer;
+border-radius: 50%;
+border: 9px none;
+background: conic-gradient(from 180deg at 50% 50%, #7000FF 0deg, #7D9AFF 0.04deg, #FF7AD2 183.75deg, #7000FF 360deg);
+
+position: absolute;
+width: 33px;
+height: 33px;
+left: -40px;
+top: calc(50% - 30px/2 );
+margin-left: 65px;
+}
+.white{
+width: 21px;
+height: 21px;
+border-radius: 50%;
+background-color: white;
+position:absolute;
+bottom: 18px;
+left: 31px;
+cursor: pointer;
+}
+/* =================================================== Logo title========================== */
+.nav_header{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav_header > h1{
+position: absolute;
+width: 68px;
+height: 22px;
+left: 30.32px;
+top: calc(50% - 50px/2);
+justify-content: center;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20.5076px;
+line-height: 22px;
+margin-left:40px ;
+color: #000000;
+cursor: pointer;
+}
+/* ================================================ Search Bar================================ */
+.input_wrap{
+ display: flex;
+ justify-content: center;
+ box-sizing: border-box;
+margin-left:-130px;
+}
+.search{
+position: absolute;
+width: 520px;
+height: 32px;
+margin: 14px 0 14px -300px;
+border: none;
+padding: 0;
+background: #EEF0FA;
+border-radius: 8px;
+}
+input:focus-within{
+    border:0;
+}
+.nav_items{
+position: relative;
+display: absolute;
+justify-content: center;
+align-items: center;
+}
+.search_icon{
+height: 15px;
+width: 15.2px;
+position: absolute;
+right: 249px;
+margin-top: 22px;
+color: #000000;
+color: #A1A3D4;
+cursor: pointer;
+}
+
+/* ============================================================ Nav_lists=========================== */
+.nav_list{
+display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;
+width: 571px;
+height: 24px;
+left: 350px;
+}
+.nav_list_titles{
+display: flex;
+font-family: 'Poppins';
+font-size: 16px;
+height: 24px;
+width: 75px;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 12px;
+margin-top: 0;
+padding: 0;
+}
+.nav_ul{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.44px;
+padding: 8px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-right:20px ;
+cursor: pointer;
+list-style: none;
+margin-top: 15px;
+}
+
+
+/*=========================================================Profile========================  */
+.profile{
+    display: flex ;
+    justify-content: center;
+    position:absolute;
+    right: 40px;
+    color:#A1A3D4 ;
+    margin-top: 35px;
+    
+}
+.avatar > i{
+    align-items: center;
+    margin-right: 11.5px;
+    font-size: 18.5px;
+    cursor: pointer;
+}
+.sliders > i{
+    margin-left: 11.5px;
+    font-size: 18.5px;
+    cursor: pointer;
+}
+
+/* ===================== Media Quries================== */
+@media screen and (max-width:992px){
+    nav{
+        width: 100%;
+    }
+
+}
