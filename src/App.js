@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Bargraph from './bargraph/Bargraph';
+import Earnings from './earnings/Earnings';
+import HomeData from './home_data/HomeData';
+import Navbar from './navbar/Navbar';
+import Footer from './footer/Footer';
 
-function App() {
+
+ function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+<div className="app">
+  
+<Navbar/>
+
+<Earnings/>
+
+<HomeData/>
+
+<Bargraph/>
+
+
+<Footer/>
+</div>
+
+
+
   );
 }
+
 
 export default App;
