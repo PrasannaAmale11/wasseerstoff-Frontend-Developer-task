@@ -8,21 +8,23 @@
 <h3>Technology stack/libraries used</h3>
 
 <ul>
-<h4>FrameWork</h4>
+<h4>FRAMEWORK</h4>
 <li>React.JS</li>
 
-<h4>Technologies</h4>
+<h4>TECHNOLOGIES</h4>
 <li>HTML5</li>
 <li>CSS3</li>
 <li>Javascript</li>
 
-</h4>Icons</h4>
+</h4>ICONS</h4>
 <li>Unicons(iconScout)</li>
 <li>icon8</li>
 </ul>
 
 <h3>Public Hosted link:</h3>
 <a href="https://wasseerstoff-frontend-developer-task-git-main-prasannaamale11.vercel.app/">Here</a>
+
+
 
 <h3>How I approached the task</h3>
 <p> First created react project with Gitbash. Then made imports For google fonts and icons, then made folder structure for Components Ex. navbar,home..etc. <br/>
